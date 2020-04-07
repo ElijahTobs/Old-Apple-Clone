@@ -1,26 +1,238 @@
-.fa-apple{
+body {
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    /* padding-top: 10px; */
+}
+
+.sect1 {
+    margin-top: 10px;
+    padding-top: 50px;
+    /* margin: auto; */
+    /* width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px; */
+    /* background-image: url(https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg); */
+    background: url(https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg) no-repeat bottom center;
+    height: 500px;
+
+}
+
+.sect1 nav {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    /* margin: 70px 0; */
+}
+
+.fa-apple {
     color: #DBDCDD;
     /* color: #D7D8D9; */
     font-size: 30px;
 }
 
 .fa-search {
-    border: #DBDCDD 1px solid;
-    padding-right: 30px;
+    border: #333 1px solid;
+    padding: 5px 70px 5px 0px;
+    border-radius: 40px;
+    color: #dbdbdb;
+    height: 13px;
+    width: 100%;
 }
 
-ul {
+main ul {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     border: #000 1px solid;
     align-items: center;
-    width: 70%;
+    width: 100%;
     justify-content: center;
     margin: auto;
+    border-radius: 10px;
+    background: linear-gradient(#747474 50%, #676767 50%);
 }
-li {
-    width: 60px;
-    list-style: none;
-    border: olive 1px solid;
+
+.sect1 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    border-right: #555 1px solid;
     margin: auto;
+    text-align: center;
+}
+
+nav li:nth-last-of-type(1) {
+    border-right: none;
+}
+
+.sect1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sect1 p {
+    color: #eee;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    /* font-family: Roboto; */
+}
+
+.sect1 p:nth-of-type(1) {
+    margin-top: 30px;
+    font-weight: 10px;
+    font-size: 60px;
+}
+
+main {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.sect2 {
+    /* width: 80%; */
+    /* padding: 10px; */
+    /* padding-left: 0; */
+    margin: auto;
+    margin-top: 5px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sect2 div {
+    /* width: 25%; */
+    height: 200px;
+    width: 100%;
+    /* display: inline-block; */
+    /* margin: auto; */
+}
+
+/* #divone {
+    height: 200px;
+    background: url(./img/iphone5.jpg);
+} */
+.sect2 div:nth-of-type(1) {
+    background: url(./img/iphone5.jpg) no-repeat center right;
+}
+
+.sect2 div:nth-of-type(2) {
+    background: url(./img/iphone5c.jpg) no-repeat center;
+}
+
+.sect2 div:nth-of-type(3) {
+    background: url(./img/hbd.jpg) no-repeat center;
+}
+
+.sect2 div:nth-of-type(4) {
+    background: url(./img/supplier.jpg) no-repeat center;
+}
+
+footer {
+    background-color: #fff;
+    font-size: 12px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li {
+    border-right: 2px #999 solid;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p span {
+    border-left: #999 2px solid;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        width: 95%;
+    }
+
+    .sect1 p {
+        color: #eee;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 27px;
+        /* font-family: Roboto; */
+    }
+
+    .sect1 p:nth-of-type(1) {
+        margin-top: 20px;
+        font-weight: 10px;
+        font-size: 60px;
+    }
+
+    .sect2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer div,
+    footer>p {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    footer>p {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sect2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .sect1 p {
+        color: #eee;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        /* font-family: Roboto; */
+    }
+
+    .sect1 p:nth-of-type(1) {
+        margin-top: 30px;
+        font-weight: 10px;
+        font-size: 40px;
+    }
 }
