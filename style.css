@@ -1,0 +1,26 @@
+.fa-apple{
+    color: #DBDCDD;
+    /* color: #D7D8D9; */
+    font-size: 30px;
+}
+
+.fa-search {
+    border: #DBDCDD 1px solid;
+    padding-right: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    border: #000 1px solid;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+li {
+    width: 60px;
+    list-style: none;
+    border: olive 1px solid;
+    margin: auto;
+}
