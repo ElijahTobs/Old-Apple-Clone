@@ -117,8 +117,8 @@ q {
 
 blockquote:before,
 blockquote:after,
-q:before,
-q:after {
+q::before,
+q::after {
     content: '';
     content: none;
 }
@@ -191,10 +191,13 @@ audio:not([controls]) {
 
 html {
     font-size: 100%;
+
     /* 1 */
     -webkit-text-size-adjust: 100%;
+
     /* 2 */
     -ms-text-size-adjust: 100%;
+
     /* 2 */
 }
 

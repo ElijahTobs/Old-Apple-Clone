@@ -12,10 +12,14 @@ main {
     padding-top: 50px;
     background: url(https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg) no-repeat bottom center;
     height: 500px;
+    width: 1350px;
+    margin: auto
+    /* width: fit-content; */
+
 }
 
 .sect1 nav {
-    width: 90%;
+    width: 75%;
     margin: auto;
     margin-top: 40px;
 }
@@ -58,6 +62,11 @@ main ul {
     text-align: center;
 }
 
+.sect1 li:hover {
+    background-color: #555;
+    border-radius: 40px;
+}
+
 nav li:nth-last-of-type(1) {
     border-right: none;
 }
@@ -90,16 +99,21 @@ main {
 }
 
 .sect2 {
+    width: 1350px;
     margin: auto;
     margin-top: 5px;
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+
 }
 
 .sect2 div {
     height: 200px;
     width: 100%;
+    overflow: hidden;
+
 }
 
 .sect2 div:nth-of-type(1) {
@@ -119,8 +133,11 @@ main {
 }
 
 footer {
+    width: 1150px;
     background-color: #fff;
     font-size: 12px;
+    /* text-align: center; */
+    margin: auto;
 }
 
 footer div {
@@ -174,15 +191,16 @@ footer p span {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    footer div,
-    footer>p {
-        display: block;
+    footer div {
         text-align: center;
         margin: auto;
     }
 
     footer>p {
         margin-top: 10px;
+        display: block;
+        text-align: center;
+        margin: auto;
     }
 }
 
