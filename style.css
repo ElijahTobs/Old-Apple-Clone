@@ -25,7 +25,7 @@ main {
   padding-top: 50px;
   background: url(https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg) no-repeat bottom center;
   height: 500px;
-  width: 1350px;
+  width: 1349px;
   margin: auto
 
   /* width: fit-content; */
@@ -118,7 +118,7 @@ footer a {
 }
 
 .sect2 {
-  width: 1350px;
+  width: 1349px;
   margin: auto;
   margin-top: 5px;
   display: grid;
