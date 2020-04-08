@@ -1,57 +1,34 @@
-# Project Name
+# OLD APPLE PAGE CLONE
 
-> One paragraph statement about the project.
+> A clone of an old version of apple's page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/old-apple.png)
 
-Additional description about the project and its features.
+![screenshot](./img/old-apple2.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://raw.githack.com/ElijahTobs/Old-Apple-Clone/main/index.html)
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+To get a local copy up and running follow these simple example steps
 
 ## Authors
 
-👤 **Author1**
+👤 **Elijah Ayandokun**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ElijahTobs](https://github.com/ElijahTobs)
+- Twitter: [@Elijahgr8](https://twitter.com/Elijahgr8)
+- Linkedin: [linkedin](https://linkedin.com/in/ayandokunelijah)
 
 ## 🤝 Contributing
 
