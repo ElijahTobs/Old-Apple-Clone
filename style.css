@@ -1,38 +1,27 @@
 body {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 main {
     width: 100%;
     margin: auto;
-    /* padding-top: 10px; */
 }
 
 .sect1 {
-    margin-top: 10px;
     padding-top: 50px;
-    /* margin: auto; */
-    /* width: 80%;
-    margin: auto;
-    margin-top: 10px;
-    padding: 10px; */
-    /* background-image: url(https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg); */
     background: url(https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg) no-repeat bottom center;
     height: 500px;
-
 }
 
 .sect1 nav {
     width: 90%;
     margin: auto;
     margin-top: 40px;
-    /* margin: 70px 0; */
 }
 
 .fa-apple {
     color: #DBDCDD;
-    /* color: #D7D8D9; */
     font-size: 30px;
 }
 
@@ -87,7 +76,6 @@ nav li:nth-last-of-type(1) {
     margin-top: 20px;
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    /* font-family: Roboto; */
 }
 
 .sect1 p:nth-of-type(1) {
@@ -102,9 +90,6 @@ main {
 }
 
 .sect2 {
-    /* width: 80%; */
-    /* padding: 10px; */
-    /* padding-left: 0; */
     margin: auto;
     margin-top: 5px;
     display: grid;
@@ -113,17 +98,10 @@ main {
 }
 
 .sect2 div {
-    /* width: 25%; */
     height: 200px;
     width: 100%;
-    /* display: inline-block; */
-    /* margin: auto; */
 }
 
-/* #divone {
-    height: 200px;
-    background: url(./img/iphone5.jpg);
-} */
 .sect2 div:nth-of-type(1) {
     background: url(./img/iphone5.jpg) no-repeat center right;
 }
@@ -183,7 +161,6 @@ footer p span {
         margin-top: 20px;
         font-family: 'Quicksand', sans-serif;
         font-size: 27px;
-        /* font-family: Roboto; */
     }
 
     .sect1 p:nth-of-type(1) {
@@ -227,7 +204,6 @@ footer p span {
         margin-top: 20px;
         font-family: 'Quicksand', sans-serif;
         font-size: 25px;
-        /* font-family: Roboto; */
     }
 
     .sect1 p:nth-of-type(1) {
