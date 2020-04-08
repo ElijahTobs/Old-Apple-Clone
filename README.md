@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ElijahTobs/Old-Apple-Clone/main/index.html)
+[Live Demo Link](https://raw.githack.com/ElijahTobs/Old-Apple-Clone/master/index.html)
 
 ## Getting Started
 
