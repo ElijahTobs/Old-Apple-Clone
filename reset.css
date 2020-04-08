@@ -81,8 +81,14 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+
+  /* font: inherit; */
   vertical-align: baseline;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /* make sure to set some focus styles for accessibility */
@@ -123,9 +129,12 @@ q::after {
   content: none;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+input[type=search] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 input[type=search]::-webkit-search-cancel-button,
@@ -136,18 +145,14 @@ input[type=search]::-webkit-search-results-decoration {
   -moz-appearance: none;
 }
 
-input[type=search] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-}
-
 textarea {
   overflow: auto;
-  vertical-align: top;
   resize: vertical;
+
+  /* 1 */
+  vertical-align: top;
+
+  /* 2 */
 }
 
 /**
@@ -225,6 +230,8 @@ a:hover {
 
 img {
   border: 0;
+  vertical-align: middle;
+
 
   /* 1 */
   -ms-interpolation-mode: bicubic;
@@ -252,11 +259,11 @@ form {
  * Define consistent border, margin, and padding.
  */
 
-fieldset {
+/* fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
-}
+} */
 
 /**
  * 1. Correct color not being inherited in IE 6/7/8/9.
@@ -412,36 +419,6 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-/**
- * 1. Remove default vertical scrollbar in IE 6/7/8/9.
- * 2. Improve readability and alignment in all browsers.
- */
-
-textarea {
-  overflow: auto;
-
-  /* 1 */
-  vertical-align: top;
-
-  /* 2 */
-}
-
-/**
- * Remove most spacing between table cells.
- */
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 html,
 button,
 input,
@@ -450,9 +427,27 @@ textarea {
   color: #222;
 }
 
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+
+/**
+* 1. Remove default vertical scrollbar in IE 6/7/8/9.
+* 2. Improve readability and alignment in all browsers.
+*/
+
+
+
+/**
+* Remove most spacing between table cells.
+*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
 
 ::selection {
@@ -460,9 +455,9 @@ textarea {
   text-shadow: none;
 }
 
-img {
+/* img {
   vertical-align: middle;
-}
+} */
 
 fieldset {
   border: 0;
@@ -470,9 +465,9 @@ fieldset {
   padding: 0;
 }
 
-textarea {
+/* textarea {
   resize: vertical;
-}
+} */
 
 .chromeframe {
   margin: 0.2em 0;
