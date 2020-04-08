@@ -232,7 +232,6 @@ img {
   border: 0;
   vertical-align: middle;
 
-
   /* 1 */
   -ms-interpolation-mode: bicubic;
 
@@ -427,13 +426,10 @@ textarea {
   color: #222;
 }
 
-
 /**
 * 1. Remove default vertical scrollbar in IE 6/7/8/9.
 * 2. Improve readability and alignment in all browsers.
 */
-
-
 
 /**
 * Remove most spacing between table cells.
